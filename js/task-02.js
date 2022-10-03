@@ -8,7 +8,7 @@ const ingredients = [
 ];
 
 ingredients.forEach (Element => {
-  let listItem = document.createElement("li");
+  const listItem = document.createElement("li");
   listItem.innerHTML = Element;
   listItem.classList.add ("item");
   
